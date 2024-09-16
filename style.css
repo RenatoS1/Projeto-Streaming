@@ -13,7 +13,7 @@ body{
     background-color: #141414;
     color: white;
     overflow-x: hidden; /* Para evitar rolagem horizontal indesejada */
-    overflow-y: hidden;
+    
 }
 
 .inicio{
