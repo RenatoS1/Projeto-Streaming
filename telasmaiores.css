@@ -14,7 +14,7 @@
     }
 
     .inicio nav{
-        left: 60%;
+        left: 55%;
         font-size: 20px;
         padding: 10px;
         margin-left:20px ;
@@ -31,13 +31,13 @@
     i#pesquisa{
         font-size: 1.7em;
         position: relative;
-        left: 85%;
+        left: 82%;
         top: -50px;
     }
     i#sino{
         font-size: 1.7em;
         position: relative;
-        left: 86%;
+        left: 83%;
         top: -50px;
     }
     i{
@@ -45,6 +45,15 @@
         padding: 20px;
         font-size: 2em;
     }
-    
+
+    .filmes img{
+        width: 200px;
+    }
+    .animes img{
+        width: 200px;
+    }
+    .series img{
+        width: 200px;
+    }
 }
 
