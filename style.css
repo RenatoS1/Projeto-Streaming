@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=s.filmes:hover img');
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
@@ -69,7 +69,6 @@ h2{
 
 .filmes{
     display: flex;
-    
 }
 
 .filmes:hover img{
@@ -90,9 +89,10 @@ img:hover{
 
 }
 
-.filmes img:hover{
+.filmes  img:hover{
     opacity: 1;
 }
+
 
 
 .animes{
@@ -146,7 +146,7 @@ img:hover{
 
 
 .filmes, .animes, .series{
-    overflow-x: auto; /* Adiciona rolagem horizontal */
+    overflow-y: hidden; /*Adiciona rolagem horizontal */
 }
 
 i#pesquisa{

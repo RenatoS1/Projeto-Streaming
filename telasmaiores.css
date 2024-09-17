@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+    
+
+    body{
+        background-color:black;
+    }
+
+    .inicio nav{
+        left: 60%;
+        font-size: 20px;
+        padding: 10px;
+        margin-left:20px ;
+    }
+
+    h2{
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    img{
+        width: 200px;
+    }
+
+    i#pesquisa{
+        font-size: 1.7em;
+        position: relative;
+        left: 85%;
+        top: -50px;
+    }
+    i#sino{
+        font-size: 1.7em;
+        position: relative;
+        left: 86%;
+        top: -50px;
+    }
+    i{
+        margin-top: 100px;
+        padding: 20px;
+        font-size: 2em;
+    }
+    
+}
+
