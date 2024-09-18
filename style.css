@@ -86,13 +86,12 @@ h2{
 
 img:hover{
     transform: translateY(-20px);
-
+    
 }
 
 .filmes  img:hover{
     opacity: 1;
 }
-
 
 
 .animes{
@@ -165,4 +164,11 @@ i{
     margin-top: 100px;
     padding: 20px;
     font-size: 2em;
+}
+
+.play{
+    position: relative;
+    left: -30%;
+    
+    
 }
