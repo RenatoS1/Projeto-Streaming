@@ -93,6 +93,12 @@ img:hover{
     opacity: 1;
 }
 
+.play{
+    position: relative;
+    left: -118px;
+    margin: auto;
+}
+
 
 .animes{
     display: flex;
@@ -164,11 +170,4 @@ i{
     margin-top: 100px;
     padding: 20px;
     font-size: 2em;
-}
-
-.play{
-    position: relative;
-    left: -30%;
-    
-    
 }
