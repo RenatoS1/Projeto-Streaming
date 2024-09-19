@@ -91,13 +91,9 @@ img:hover{
 
 .filmes  img:hover{
     opacity: 1;
+    
 }
 
-.play{
-    position: relative;
-    left: -118px;
-    margin: auto;
-}
 
 
 .animes{
