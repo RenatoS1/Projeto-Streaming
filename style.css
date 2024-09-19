@@ -147,7 +147,7 @@ img:hover{
 
 
 .filmes, .animes, .series{
-    ; /*Adiciona rolagem horizontal */
+    overflow: hidden;; /*Adiciona rolagem horizontal */
 }
 
 i#pesquisa{
