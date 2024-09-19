@@ -12,8 +12,8 @@
 body{
     background-color: #141414;
     color: white;
-    overflow-x: hidden; /* Para evitar rolagem horizontal indesejada */
-    
+    /* Para evitar rolagem horizontal indesejada */
+
 }
 
 .inicio{
@@ -42,7 +42,7 @@ h1{
     display: inline;
     font-family: sans-serif;
     position: relative;
-    left:15%;
+    left:40%;
     top: -20px;
     transition: 0.5s ease;
 }
@@ -147,7 +147,7 @@ img:hover{
 
 
 .filmes, .animes, .series{
-    overflow-y: hidden; /*Adiciona rolagem horizontal */
+    ; /*Adiciona rolagem horizontal */
 }
 
 i#pesquisa{
