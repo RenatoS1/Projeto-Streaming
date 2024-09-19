@@ -67,9 +67,12 @@ h2{
     text-indent: 20px; 
 }
 
-.filmes{
-    display: flex;
+
+.filmes::-webkit-scrollbar{/*Escondeu a lista*/
+    width: 0;
 }
+
+
 
 .filmes:hover img{
     opacity: .5;
@@ -81,7 +84,7 @@ h2{
     height:250px;
     padding: 5px;
     border-radius:10px;
-    aspect-ratio:4/3 ;/*Essa tag deixou as imagens todas do mesmo tanhanho*/
+    /*aspect-ratio:4/3 ;Essa tag deixou as imagens todas do mesmo tanhanho*/
 }
 
 img:hover{
@@ -96,8 +99,8 @@ img:hover{
 
 
 
-.animes{
-    display: flex;
+.animes::-webkit-scrollbar{
+    width: 0;
 }
 
 .animes:hover img{
@@ -118,8 +121,8 @@ img:hover{
 }
 
 
-.series{
-    display: flex;
+.series::-webkit-scrollbar{
+    width: 0;
 }
 
 .series:hover img{
@@ -147,8 +150,10 @@ img:hover{
 
 
 .filmes, .animes, .series{
-    overflow: hidden;; /*Adiciona rolagem horizontal */
+    display: flex;
+    overflow-x: auto; /*Adiciona rolagem horizontal */
 }
+
 
 i#pesquisa{
     font-size: 1.5em;
