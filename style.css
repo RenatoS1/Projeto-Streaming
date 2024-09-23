@@ -159,14 +159,14 @@ img:hover{
 i#pesquisa{
     font-size: 1.5em;
     position: relative;
-    left: 56%;
-    top: -50px;
+    left: 42%;
+    top: -48px;
 }
 i#sino{
     font-size: 1.5em;
     position: relative;
-    left:56%;
-    top: -50px;
+    left:36%;
+    top: -48px;
 }
 i{
     margin-top: 100px;
@@ -174,8 +174,26 @@ i{
     font-size: 2em;
 }
 
-@media screen and (max-width:568px){
+#pexquisa{
+    position: relative;
+    left: 45%;
+    top: -115px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(230, 239, 241);
+    text-indent: 10px;
+    font-size: 16px;
+    color:black;
+    transition-duration: 1.2s;
 
+
+}
+@media screen and (max-width:600px){
+
+    body{
+        overflow-x: hidden;
+    }
     .inicio nav{
         margin-left: 0;
 
