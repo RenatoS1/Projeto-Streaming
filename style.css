@@ -10,10 +10,11 @@
 }
 
 body{
-    background-color: #141414;
+    background:black;
     color: white;
     /* Para evitar rolagem horizontal indesejada */
-    width: 100%
+    width: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -32,6 +33,9 @@ h1{
     line-height: 40px;
     font-size: 3em;
     padding: 20px;
+
+    
+
 }
 
 .inicio nav{
@@ -159,13 +163,13 @@ img:hover{
 i#pesquisa{
     font-size: 1.5em;
     position: relative;
-    left: 42%;
+    left: 45%;
     top: -48px;
 }
 i#sino{
     font-size: 1.5em;
     position: relative;
-    left:36%;
+    left:40%;
     top: -48px;
 }
 i{
@@ -179,6 +183,7 @@ i{
     left: 45%;
     top: -115px;
     height: 30px;
+    width: 150px;
     border-radius: 10px;
     border: none;
     background-color: rgb(230, 239, 241);
@@ -189,13 +194,6 @@ i{
 
 
 }
-@media screen and (max-width:600px){
-
-    body{
-        overflow-x: hidden;
-    }
-    .inicio nav{
-        margin-left: 0;
-
-    }
+.menu{
+    display: none;
 }

@@ -27,13 +27,13 @@
     i#pesquisa{
         font-size: 1.7em;
         position: relative;
-        left: 72%;
+        left: 32%;
         top: -50px;
     }
     i#sino{
         font-size: 1.7em;
         position: relative;
-        left: 75%;
+        left: 35%;
         top: -50px;
     }
     i{
@@ -50,6 +50,23 @@
     }
     .series img{
         width: 200px;
+    }
+    
+    input#pexquisa{
+        position: relative;
+        left:25%;
+        top: -150px;
+        height: 30px;
+        width: 400px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(230, 239, 241);
+        text-indent: 10px;
+        font-size: 16px;
+        color:black;
+        transition-duration: 1.2s;
+
+
     }
 }
 
@@ -101,14 +118,14 @@
     i#pesquisa{
         font-size: 2em;
         position: relative;
-        left: 80%;
+        left: 75%;
         top: -40px;
         transition: all 0.5s ease;
     }
     i#sino{
         font-size: 2em;
         position: relative;
-        left: 80%;
+        left: 75%;
         top: -40px;
     }
     i{
@@ -117,6 +134,23 @@
         font-size: 2em;
     }
     
+
+    #pexquisa{
+        position: relative;
+        left:75%;
+        top: -150px;
+        height: 30px;
+        width: 270px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(230, 239, 241);
+        text-indent: 10px;
+        font-size: 16px;
+        color:black;
+        transition-duration: 1.2s;
+    
+    
+    }
 }
 
 
