@@ -47,8 +47,8 @@ h1{
     display: inline;
     font-family: sans-serif;
     position: relative;
-    left:27%;
-    top: -20px;
+    left:20%;
+    top: -30px;
     transition: 0.5s ease;
 }
 
@@ -163,13 +163,13 @@ img:hover{
 i#pesquisa{
     font-size: 1.5em;
     position: relative;
-    left: 45%;
+    left: 43%;
     top: -48px;
 }
 i#sino{
     font-size: 1.5em;
     position: relative;
-    left:40%;
+    left:36%;
     top: -48px;
 }
 i{
@@ -197,3 +197,4 @@ i{
 .menu{
     display: none;
 }
+

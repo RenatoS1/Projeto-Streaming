@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:768px) and (max-width:1114px){
     
 
     body{
@@ -75,7 +75,7 @@
 
 
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1115px) {
     body{
         background:black;
         overflow-x: hidden;
