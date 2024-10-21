@@ -34,6 +34,7 @@ h1{
     font-size: 3em;
     padding: 20px;
 
+    margin-left:-10px ;
     
 
 }
@@ -163,13 +164,13 @@ img:hover{
 i#pesquisa{
     font-size: 1.5em;
     position: relative;
-    left: 43%;
+    left: 42%;
     top: -48px;
 }
 i#sino{
     font-size: 1.5em;
     position: relative;
-    left:36%;
+    left:32%;
     top: -48px;
 }
 i{
@@ -180,7 +181,7 @@ i{
 
 #pexquisa{
     position: relative;
-    left: 45%;
+    left: 47%;
     top: -115px;
     height: 30px;
     width: 150px;
@@ -201,11 +202,11 @@ i{
 .categorias{
     border: 2px solid ;
     height: 100%;
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
     position: absolute;
-    top:90px;
-    left: -410px;
+    top:12%;
+    left: -54%;
     background-color: black;
     transition-duration:  1.2s;
     
@@ -213,7 +214,7 @@ i{
 .voltar{
    position: relative;
    top: 10px;
-   left: 340px;
+   left: 240px;
 }
 
 .categorias > article > a {

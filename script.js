@@ -17,10 +17,10 @@ let menuCat = document.getElementById('menuCat');
 let voltarMenu = document.getElementById('voltar');
 let abreCategoria = document.getElementById('abreCategorias');
 function abreMenu() {
-    menuCat.style.left = '1px'; 
+    menuCat.style.left = '1%'; 
 }
 function fechaMenu() {
-    menuCat.style.left = '-410px'; 
+    menuCat.style.left = '-1400px'; 
 }
 
 voltarMenu.addEventListener ('click', fechaMenu);
