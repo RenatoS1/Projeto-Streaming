@@ -207,8 +207,8 @@
         width: 700px;
         border-radius: 10px;
         position: absolute;
-        top:90px;
-        left: -90;
+        top:12%;
+        left: 70%;
         background-color: rgb(53, 52, 52);
         transition-duration:  1.2s;
         margin-left: -120px;

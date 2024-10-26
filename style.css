@@ -23,6 +23,10 @@ body{
     margin-left: 50px;
 }
 
+h1 > span{
+    color: yellow;
+}
+
 h1{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -206,7 +210,7 @@ i{
     border-radius: 10px;
     position: absolute;
     top:12%;
-    left: -54%;
+    left: -80%;
     background-color: black;
     transition-duration:  1.2s;
     
